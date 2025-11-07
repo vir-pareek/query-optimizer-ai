@@ -91,7 +91,7 @@ def predict_pair(a_sql, b_sql):
 # STREAMLIT UI
 # ----------------------------
 
-st.title("🔍 QueryOptimizerAI")
+st.title("🔍 QueryComparatorAI")
 st.write("Compare two SQL queries and predict which one is faster using ML.")
 
 sql_a = st.text_area("SQL Query A", height=160)
